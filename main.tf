@@ -8,4 +8,9 @@ module "vpc" {
     environment = var.environment
     vpc_tags = var.vpc_tags
 
+    ##public subnets
+    public_subnet_cidrs = var.public_subnet_cidrs
+
+    #private subnet
+    private_subnet_cidrs = var.private_subnet_cidrs
 }
