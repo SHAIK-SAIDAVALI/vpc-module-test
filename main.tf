@@ -13,4 +13,7 @@ module "vpc" {
 
     #private subnet
     private_subnet_cidrs = var.private_subnet_cidrs
+    
+    #database subnet
+    database_subnet_cidrs = var.database_subnet_cidrs
 }
