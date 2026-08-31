@@ -8,14 +8,14 @@ module "vpc" {
     environment = var.environment
     vpc_tags = var.vpc_tags
 
-    ##public subnets
+   ##public subnets
     public_subnet_cidrs = var.public_subnet_cidrs
 
-    #private subnet
+     #private subnet
     private_subnet_cidrs = var.private_subnet_cidrs
     
     #database subnet
     database_subnet_cidrs = var.database_subnet_cidrs
 
-    is_peering_required = true
-}
+  is_peering_required = true
+   }

@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "daws-86a-store"
-    key    = "vpc-module-demo"
+    bucket = "terraform-remote-statefile786"
+    key = "aws-vpc-module"
     region = "us-east-1"
     use_lockfile = true
     encrypt = true
